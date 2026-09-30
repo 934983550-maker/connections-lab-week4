@@ -1,0 +1,249 @@
+{
+    "questions": [
+        {
+            "question": "You hear something moving in the basement at 2 AM. What do you do?",
+            "answers": [
+                {
+                    "text": "Go downstairs immediately.",
+                    "traits": {
+                        "courage": 3,
+                        "curiosity": 2,
+                        "risk": 3
+                    }
+                },
+                {
+                    "text": "Wake up your friends first.",
+                    "traits": {
+                        "loyalty": 3,
+                        "caution": 2
+                    }
+                },
+                {
+                    "text": "Stay upstairs and investigate from a distance.",
+                    "traits": {
+                        "caution": 3,
+                        "curiosity": 1
+                    }
+                },
+                {
+                    "text": "Ignore it and go back to sleep.",
+                    "traits": {
+                        "caution": 2,
+                        "risk": -1
+                    }
+                }
+            ]
+        },
+        {
+            "question": "You find a strange object in the woods. What do you do?",
+            "answers": [
+                {
+                    "text": "Pick it up and examine it.",
+                    "traits": {
+                        "curiosity": 3,
+                        "risk": 2
+                    }
+                },
+                {
+                    "text": "Take a photo and leave it there.",
+                    "traits": {
+                        "caution": 3,
+                        "curiosity": 1
+                    }
+                },
+                {
+                    "text": "Bring it back to your friends.",
+                    "traits": {
+                        "loyalty": 3,
+                        "curiosity": 1
+                    }
+                },
+                {
+                    "text": "Destroy it before anything happens.",
+                    "traits": {
+                        "courage": 2,
+                        "risk": 3
+                    }
+                }
+            ]
+        },
+        {
+            "question": "Your friend disappears after telling you they found something strange. What do you do?",
+            "answers": [
+                {
+                    "text": "Go looking for them alone.",
+                    "traits": {
+                        "courage": 3,
+                        "loyalty": 3,
+                        "risk": 2
+                    }
+                },
+                {
+                    "text": "Get the whole group together.",
+                    "traits": {
+                        "loyalty": 3,
+                        "caution": 2
+                    }
+                },
+                {
+                    "text": "Try to figure out what happened first.",
+                    "traits": {
+                        "curiosity": 3,
+                        "caution": 2
+                    }
+                },
+                {
+                    "text": "Stay home. It is too dangerous.",
+                    "traits": {
+                        "caution": 4
+                    }
+                }
+            ]
+        },
+        {
+            "question": "The television suddenly turns on by itself. A strange message appears on the screen. What do you do?",
+            "answers": [
+                {
+                    "text": "Watch the message carefully.",
+                    "traits": {
+                        "curiosity": 3,
+                        "caution": 1
+                    }
+                },
+                {
+                    "text": "Turn the television off.",
+                    "traits": {
+                        "caution": 3
+                    }
+                },
+                {
+                    "text": "Record the message and show your friends.",
+                    "traits": {
+                        "curiosity": 2,
+                        "loyalty": 2
+                    }
+                },
+                {
+                    "text": "Follow the instructions immediately.",
+                    "traits": {
+                        "courage": 2,
+                        "risk": 3
+                    }
+                }
+            ]
+        },
+        {
+            "question": "You see a car abandoned at a gas station. The keys are still inside. What do you do?",
+            "answers": [
+                {
+                    "text": "Take the car and leave town.",
+                    "traits": {
+                        "courage": 2,
+                        "risk": 3
+                    }
+                },
+                {
+                    "text": "Check the area before touching anything.",
+                    "traits": {
+                        "caution": 3,
+                        "curiosity": 1
+                    }
+                },
+                {
+                    "text": "Wait for your friends and decide together.",
+                    "traits": {
+                        "loyalty": 3,
+                        "caution": 2
+                    }
+                },
+                {
+                    "text": "Search the car for clues.",
+                    "traits": {
+                        "curiosity": 3,
+                        "risk": 1
+                    }
+                }
+            ]
+        },
+        {
+            "question": "Your phone suddenly receives a message from your missing friend. It says: RUN. What do you do?",
+            "answers": [
+                {
+                    "text": "Run immediately.",
+                    "traits": {
+                        "caution": 3,
+                        "risk": 1
+                    }
+                },
+                {
+                    "text": "Try to call them back.",
+                    "traits": {
+                        "loyalty": 3,
+                        "courage": 1
+                    }
+                },
+                {
+                    "text": "Ask where they are.",
+                    "traits": {
+                        "curiosity": 3,
+                        "risk": 1
+                    }
+                },
+                {
+                    "text": "Go toward the location of the message.",
+                    "traits": {
+                        "courage": 3,
+                        "loyalty": 2,
+                        "risk": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "types": [
+        {
+            "name": "THE PROTECTOR",
+            "description": "You put other people first. When something goes wrong, your instinct is to protect the people around you.",
+            "traits": {
+                "courage": 8,
+                "curiosity": 4,
+                "loyalty": 10,
+                "caution": 6,
+                "risk": 5
+            }
+        },
+        {
+            "name": "THE INVESTIGATOR",
+            "description": "You need to know what is happening. Strange things make you more curious rather than more afraid.",
+            "traits": {
+                "courage": 6,
+                "curiosity": 10,
+                "loyalty": 5,
+                "caution": 4,
+                "risk": 8
+            }
+        },
+        {
+            "name": "THE SURVIVOR",
+            "description": "You think before you act. Staying alive means understanding the danger before taking unnecessary risks.",
+            "traits": {
+                "courage": 4,
+                "curiosity": 4,
+                "loyalty": 6,
+                "caution": 10,
+                "risk": 2
+            }
+        },
+        {
+            "name": "THE REBEL",
+            "description": "You do not like being told what to do. When everyone else runs away, you are probably going toward the problem.",
+            "traits": {
+                "courage": 9,
+                "curiosity": 8,
+                "loyalty": 5,
+                "caution": 2,
+                "risk": 10
+            }
+        }
+    ]
+}

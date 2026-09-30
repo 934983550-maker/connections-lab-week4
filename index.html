@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Would You Survive?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.min.js"></script>
+</head>
+<body>
+    <main>
+        <section id="intro">
+            <p class="small">SURVIVAL SIMULATOR</p>
+            <h1>HOW WOULD<br>YOU SURVIVE?</h1>
+            <p class="description">
+                Strange things are happening in your town.
+                Your decisions will reveal what kind of person you become.
+            </p>
+            <button id="startButton" disabled>LOADING...</button>
+        </section>
+        <section id="storyScreen" class="hidden">
+            <p class="small">TRANSMISSION RECEIVED</p>
+            <h2 id="storyTitle"></h2>
+            <p id="storyText"></p>
+            <button id="continueButton" disabled>CONTINUE</button>
+        </section>
+        <section id="questionScreen" class="hidden">
+            <p id="questionNumber" class="small"></p>
+            <h2 id="question"></h2>
+            <div id="answers"></div>
+        </section>
+        <section id="resultScreen" class="hidden">
+            <p class="small">YOUR SURVIVAL PROFILE</p>
+            <h1 id="resultType"></h1>
+            <p id="resultDescription"></p>
+            <div id="canvasContainer"></div>
+            <button id="restartButton">TRY AGAIN</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
